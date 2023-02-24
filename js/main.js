@@ -1,3 +1,5 @@
-import { khan } from './module.js';
+/* import { khan } from './module.js'; */
 
-console.log(khan);
+const {khan:k,fawad:f} = require('./module')
+
+console.log(f);
